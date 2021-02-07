@@ -51,4 +51,5 @@ Put `part2.py` in your `ps3` folder.
 
 ## Part 3
 * while loop for guessing a number + binary search + random numbers
-
+User enters a word then a letter - you have to tell them whether their word contains that letter.
+Do error checking -- if statements with if x in y
