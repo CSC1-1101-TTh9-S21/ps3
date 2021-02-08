@@ -53,13 +53,35 @@ It will then perform the calculation you carried out in Part 1, but this time, *
 
 * The `main()` function will read the commandline arguments into three variables of the correct type. It will then call the `calculate()` function with these three variables.
 
-Here's what the output should look like:
+Here is a sample run of the program:
 
 <img src="pic2.png" width=500>
 
 Put `part2.py` in your `ps3` folder.
 
 ## Part 3
-In part 3, you will create a new program called `part3.py` that will do the following:
-User enters a word then a letter - you have to tell them whether their word contains that letter.
-Do error checking -- if statements with if x in y
+In part 3, you will create a new program called `part3.py` that will do the following **in a `main()` function`**:
+
+1. Prompt user to enter a word. Check to make sure that it is longer than 2 characters. If it is not, ask the user to try again. While the user enters something less than 2 characters, keep telling them it's too short and keep asking them to try again. You will use a `while` loop to do this.
+
+2. Prompt user to enter a single letter. Check to make sure that it is a single character. Again, if it's more than one character, keep telling them you want only one letter and keep asking them to try again. Again, you will use a `while` loop to do this.
+
+3. Report back to the user whether the word they entered contains the letter they entered.
+
+Here are a few sample runs of the program:
+
+<img src="pic4.png" width=500>
+
+---
+
+## What to turn in
+In your `ps3` folder you should have three python scripts: `part1.py`, `part2.py`, and `part3.py`. Remove any other things you might have accidentally put in the folder, then zip the folder up using whatever means you normally use to zip things up (e.g., on a Mac, you can right click and select `Compress`).
+
+Upload the `.zip` file you created to Canvas. 
+
+Note that if you do not submit the files as specified here, there will be a major deduction in your grade for this assignment. Following directions to the letter is a crucial skill for computer programming.
+
+### This problem set is due Friday, February 12, 2021, at 11:59pm EST
+
+
+
