@@ -33,7 +33,15 @@ Here is a sample run of the program:
 Put `part1.py` in your `ps3` folder.
 
 ## Part 2
-In part 2, you will create a new version of your program from part 1 called `part2.py`, but this time you will rewrite it so that it has **2 functions**: a `main()` function and a function called `calculate()`. 
+In part 2, you will create a program that does just what the program in Part 1 did but in a different way. 
+
+**First difference:**
+Instead of getting user input while the program is running, the size of deposit, interest rate, and number of years until retirement will be provided as command line arguemnts. When a user runs the program, they will use the `Run... Customized` option, and they will enter the three data points as three command-line arguments. **(Don't forget to `import sys`!)** Here's a picture of how you will put in the arguments with `Run... Customized``:
+
+<img src="pic2.png" width=500>
+
+**Second difference:**
+In `part2.py` you will do the work with **2 functions**: a `main()` function and a function called `calculate()`. 
 
 * The `calculate()` function will take three arguments:
 
@@ -41,15 +49,17 @@ In part 2, you will create a new version of your program from part 1 called `par
 2. The interest rate.
 3. The number of years until retirement.
 
-It will then perform the calculation you carried out in Part 1, but this time, **you will use a `while` loop**. As before you will print ou the value of the account when the user retires. It should give the same result as Part 1, of course.
+It will then perform the calculation you carried out in Part 1, but this time, **you will use a `while` loop**. As before you will print out the value of the account when the user retires. It should give the same result as Part 1, of course.
 
-* The `main()` function will carry out steps 1 through 4 above. It will then call the `calculate()` function with the three values that the user input. 
+* The `main()` function will read the commandline arguments into three variables of the correct type. It will then call the `calculate()` function with these three variables.
 
-The output of the program should be identical to that in Part 1.
+Here's what the output should look like:
+
+
 
 Put `part2.py` in your `ps3` folder.
 
 ## Part 3
-* while loop for guessing a number + binary search + random numbers
+In part 3, you will create a new program called `part3.py` that will do the following:
 User enters a word then a letter - you have to tell them whether their word contains that letter.
 Do error checking -- if statements with if x in y
