@@ -93,6 +93,8 @@ Upload the `.zip` file you created to Canvas.
 
 Note that if you do not submit the files as specified here, there will be a major deduction in your grade for this assignment. Following directions to the letter is a crucial skill for computer programming.
 
+**Don't forget your comments!**
+
 ### This problem set is due Friday, February 12, 2021, at 11:59pm EST
 
 
