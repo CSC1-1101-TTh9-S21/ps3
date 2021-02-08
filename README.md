@@ -38,7 +38,7 @@ In part 2, you will create a program that does just what the program in Part 1 d
 **First difference:**
 Instead of getting user input while the program is running, the size of deposit, interest rate, and number of years until retirement will be provided as command line arguemnts. When a user runs the program, they will use the `Run... Customized` option, and they will enter the three data points as three command-line arguments. **(Don't forget to `import sys`!)** Here's a picture of how you will put in the arguments with `Run... Customized``:
 
-<img src="pic2.png" width=500>
+<img src="pic3.png" width=500>
 
 **Second difference:**
 In `part2.py` you will do the work with **2 functions**: a `main()` function and a function called `calculate()`. 
@@ -55,7 +55,7 @@ It will then perform the calculation you carried out in Part 1, but this time, *
 
 Here's what the output should look like:
 
-
+<img src="pic2.png" width=500>
 
 Put `part2.py` in your `ps3` folder.
 
