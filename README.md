@@ -64,7 +64,7 @@ In part 3, you will create a new program called `part3.py` that will do the foll
 
 1. Prompt user to enter a word. Check to make sure that it is longer than 2 characters. If it is not, ask the user to try again. While the user enters something less than 2 characters, keep telling them it's too short and keep asking them to try again. You will use a `while` loop to do this.
 
-2. Prompt user to enter a single letter. Check to make sure that it is a single character. Again, if it's more than one character, keep telling them you want only one letter and keep asking them to try again. Again, you will use a `while` loop to do this.
+2. Prompt user to enter a single letter. Check to make sure that it is a single character. Again, if it's not exactly one character, keep telling them you want exactly one letter and keep asking them to try again. Again, you will use a `while` loop to do this.
 
 3. Report back to the user whether the word they entered contains the letter they entered.
 
