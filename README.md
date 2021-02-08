@@ -4,6 +4,18 @@
 
 For this problem set, you will submit to Canvas **a single .zip file**. Detailed instructions for what the .zip file should contain are at the end of this problem set. Note that if you do not submit the files as specified here, there will be a major deduction in your grade for this assignment. Following directions to the letter is a crucial skill for computer programming.
 
+**NEW!** I now expect you to write comments in your code! One point will be deducted if you do not provide comments explaining your code. Here's what I would like commented this time:
+
+* Before every function, describe what it does and what its arguments are (if any).
+* Before every variable, explain what value it is holding.
+
+And, as always, in every program, the first four lines (comments) should be:
+
+* The name of the file.
+* Your name.
+* The date.
+* A statement saying "This code is my own work. I did not share my code or look at the code of another student."
+
 ## Getting started
 
 In your `CS1` folder you created for the previous problem set, create a folder called `ps3`. You will put all of the components required for this problem set in the `ps3` folder, which you will then zip up and submit as a `.zip` file to Canvas, just as you did for PS2.
