@@ -60,7 +60,7 @@ Here is a sample run of the program:
 Put `part2.py` in your `ps3` folder.
 
 ## Part 3
-In part 3, you will create a new program called `part3.py` that will do the following **in a `main()` function`**:
+In part 3, you will create a new program called `part3.py` that will do the following **in a `main()` function**:
 
 1. Prompt user to enter a word. Check to make sure that it is longer than 2 characters. If it is not, ask the user to try again. While the user enters something less than 2 characters, keep telling them it's too short and keep asking them to try again. You will use a `while` loop to do this.
 
